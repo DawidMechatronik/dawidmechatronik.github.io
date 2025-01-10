@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<title>Dawid Mechatronik Internet Page</title>
+<link rel="stylesheet" href="../mystyle.css">
+</head>
+
+<body>
+
+  <img class="photo70" src="Artemis CP2 CO2 12g.jpg">
+
+  <div class = "centeredtext">
+    <h1>Air rifle powered by CO2 12g cartridge</h1>
+    <p>
+      Let's consider an air rifle powered by a CO2 12g cartridge. The main difference between a cartridge and an external CO2 tank is 
+      the possibility to remove CO2 cartridge piercer which limits the gas flow a lot. Small CO2 tank also have worse temperature stability 
+      than bigger CO2 tank. If you shoot fast and the tank has no time to heat up from the environment it is getting colder. Colder tank means 
+      less pressure inside the cartridge so air rifle power is decreasing while shooting. After a couple magazines when whole liquid CO2 is vaporized 
+      pressure is decreasing rapidly. So those are the main disadvantages of small CO2 cartridges. Luckily, they don't need any investment and work out 
+      of the box. You can keep a couple spare 12g cartridges inside your pocket because they are small.
+    </p>
+  </div>
+  <div class = "centeredtext">
+    <h1>Test environment:</h1>
+  </div>
+  <div class = "centeredlist"> 
+    <ul class="mylist">
+      <li>I use PCP conversion with adjustable pressure from 650-1050 psi (using 0 - 1500 psi pressure gauge).<br>It simulates CO2 powered rifle in temperatures from 10-30&#x2103;. </li>
+      <br><li>During the test I used JSB Exact 4,50mm (0,547g).</li>
+      <br><li>I used an Artemis CP2 air rifle in caliber 4,50mm with a long barrel.</li>
+      <br><li>Barrel port and valve unit is not drilled yet to a bigger size (important while playing with the transfer port)!</li>
+    </ul> 
+  </div>
+  <div class="grid">
+    <div>
+      <img class="photo70" src="../common/testStand.jpg" alt="Chart factory Artemis CP2 CO2 vs hammer spring spacer">
+    </div>
+    <br>
+    <div >
+      <img class="photo70" src="../common/adjustablePCP.jpg" alt="Chart factory Artemis CP2 CO2 vs hammer spring spacer">
+    </div>
+    <br>
+    <div >
+      <img class="photo70" src="../common/chronograph.jpg" alt="Chart factory Artemis CP2 CO2 vs hammer spring spacer">
+    </div>
+    <br>
+  </div>
+
+  <div class = "centeredtext">
+    <h1>Artemis CP2 CO2 power modifications</h1>
+    <p>
+      <b>Tl;tr:</b>With an air rifle powered by a 12g CO2 cartridge you can increase power by 2-10% in a temperature range from 10 to 30&#x2103;. 
+      <br>To increase it more (42-48%) you need to use a bulk fill adapter and external CO2 tank (scroll to the page end).
+    </p>
+  </div>
+  <div class="grid">
+    <div class="container">
+    </div>
+    <br>
+    <div class="container">
+        <a href="../tuningParts/tuningParts.html"><img class="cover" src="../tuningParts/tuningParts.jpg" alt="CP2 CO2 12g"></a>
+        <div class="centered"><h2 class="textOverImageShop">My tuning parts & shop <br>(click for more info)</h2></div>
+    </div>
+    <br>
+    <div class="container">
+    </div>
+    <br>
+  </div>
+
+
+  <div class = "centeredtext">
+    <h1>1. Stronger hammer spring</h1>
+    <p>
+      I added various spacers (4, 8 and 12mm) to the factory spring. Bigger spring preload makes the hammer strike valve harder. 
+      How about power increase? Let's see the chart:
+    </p>
+  </div>
+  <img class="photo70" src="Factory CP2 CO2 vs hammer spring spacer.png" alt="Chart factory Artemis CP2 CO2 vs hammer spring spacer">
+  <div class = "centeredlist"> 
+    <ul class="mylist">
+      <li>In temperature range 10-20&#x2103;: Factory spring works the best without spacer.</li>
+      <br><li>In temperature range 20-25&#x2103;: All spacers work similarly according to power criteria.</li>
+      <br><li>In temperature range 25-30&#x2103;: 12mm spacer gives a 5,5% power increment. The 4mm and 8mm spacer gives about a 4% power increment. </li>
+    </ul>
+  </div>
+  <div class = "centeredtext">  
+    <p>
+      <b>
+        Summary: factory spring is not bad. Stronger hammer spring makes the air rifle harder to reload, air rifle kicks harder (accuracy may decrease), 
+        and trigger is harder to operate. Definitely there is no need for a harder hammer spring. You can try to add small spacer during hot day. 
+        After all, there are more disadvantages than advantages, I'm not recommending this mod for CO2 air rifle.
+      </b>
+    </p>
+  </div>
+
+
+  <div class = "centeredtext">
+    <h1>2. Weaker valve return spring</h1>
+    <p>
+      I tested various valve return springs (medium, soft, super soft) instead of factory valve return spring. 
+      With a weaker valve spring it is easier to open the valve, the valve stays open for more time because the weaker valve 
+      spring pushes the hammer back with smaller force. How about power increase? Let's see the chart:
+    </p>    
+  </div>
+  <img class="photo70" src="Factory CP2 CO2 vs valve return spring.png" alt="Chart factory Artemis CP2 CO2 vs valve return spring">
+  <div class = "centeredlist"> 
+    <ul class="mylist">
+      <li>In temperature range 10-30&#x2103;: Super soft valve return spring performs the best. It gives 3,5-10% extra power.</li>
+    </ul>
+  </div>
+  <div class = "centeredtext">
+    <p>
+      <b>
+        Summary: good choice for tuning, gives extra power in all temperatures. It sounds like a much better upgrade than stronger 
+        hammer spring, because it doesn't influence on trigger action, air rifle reloading force or kicking during shooting.
+      </b>
+    </p>
+  </div>
+
+
+  <div class = "centeredtext">
+    <h1>3. Transfer port size </h1>
+    <p>
+      As far as I know in a couple countries this air rifle is equipped with a 2,5mm transfer port and in fact it can restrict the power a little.
+      <br>Keep in mind that the transfer port is only one part, there are two more: barrel port and valve port. To achieve full power gain 
+      you should drill the barrel port and valve port to a bigger size.
+      <br>Making the barrel port hole too big may damage pellet during loading, or even pellet may partially fall into port and block there. 
+      Some people say you shouldn't drill it more than 3,8mm for 4,5mm caliber. 
+      During drilling you can also damage the barrel and valve, drill press is recommended.
+      <br><br>I plan some more tests with "factory" air rifle so my barrel and valve ports are factory size, about 3,5mm. 
+      I tested various transfer port sizes (port diameter 2,5mm; 3,0mm and 4,0mm) instead of the 3,5mm factory transfer port. 
+      Bigger transfer port restricts gas flow less, so bigger is better. How about power increase? Let's see the chart:
+    </p>    
+  </div>
+  <img class="photo70" src="Factory CP2 CO2 vs transfer port size.png" alt="Chart factory Artemis CP2 CO2 vs transfer port size">
+  <div class = "centeredlist"> 
+    <ul class="mylist">
+    <li>In temperature range 10-30&#x2103;: When you change a 2,5mm transfer port to a bigger one you will gain about 4% extra power. 
+      <br>When you change it from 3,5mm to 4mm without drilling barrel port and valve port it gives much smaller power gain, mostly during hot days.
+    </li>
+  </ul>
+  <div class = "centeredtext">
+    <p>
+      <b>
+        Good choice for tuning when your rifle uses a 2,5mm transfer port. When you already have a 3,5mm transfer port it gives very little profit. 
+        No disadvantages in air rifle handling. After drilling the barrel port and valve there should be bigger power improvement.
+      </b>
+    </p>
+  </div>
+
+
+  <div class = "centeredtext">
+    <h1>4. Single upgrades comparison</h1>
+    <p>
+      Now you know how single upgrade works, below you can see a comparison between single upgrades to see which one gives the biggest power gain:
+    </p>    
+  </div>
+  <img class="photo70" src="Factory CP2 CO2 vs single upgrade.png" alt="Chart factory Artemis CP2 CO2 vs various upgrades">
+  <div class = "centeredtext">
+    <p>
+      As you see the best single upgrade is a super soft valve return spring. Second one is a 4mm transfer port which gives little boost even with the 
+      stock barrel and valve (after drilling the barrel/valve it should work better). Those upgrades have no disadvantages in air gun handling. 
+      On the last place is a hammer spring spacer which gives a little extra power during hot days, but also restricts some power during cold days.
+    </p> 
+  </div>
+
+
+  <div class = "centeredtext">
+    <h1>5. Multi upgrades comparison</h1>
+    <p>
+      Below you can see comparison between multi upgrades to see which combination gives the best results:
+    </p>
+  </div>
+  <img class="photo70" src="Factory CP2 CO2 vs multi upgrade.png" alt="Chart factory Artemis CP2 CO2 vs various upgrades">
+  <div class = "centeredtext">
+    <p>
+      Those results are a little confusing. As you see you can't add two upgrades together and expect double power gain from those upgrades. 
+      <b>While upgrading air gun powered by CO2 cartridge you achieve the best result while replacing valve return spring only.</b>
+      Replacing more parts like: transfer port (without drilling barrel/valve!), adding stronger hammer spring or adding spacer to factory spring 
+      gives nothing more after replacing valve return spring to super soft one. 
+    </p>
+  </div>
+
+
+  <div class = "centeredtext">
+    <h1>6. Need more power?</h1>
+    <p>
+      You can't do more with an air rifle powered by a CO2 12g capsule. To make it more powerful you need to make external tank conversion.  ... (as far as I know).
+    </p>
+  </div>
+  <div class="container">
+          <a href="../tuningCO2ExternalTank/tuningCO2ExternalTank.html"><img class="cover70" src="../tuningCO2ExternalTank/Artemis CP2 CO2 SodaStream.jpg" alt="CP2 CO2 SodaStream"></a>
+          <div class="centered"><h2 class="textOverImagePower">CO2 external tank<br>Click for more info</h2></div>
+  </div>
+
+  
+  <div class="container">
+    <a href="../index.html"><img class="cover70" src="../common/baner2.jpg" alt="CP2 CO2 SodaStream"></a>
+    <div class="centered"><h2 class="textOverImagePower">Click to go back to main page</h2></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+h1{text-align: center;}
+h2{text-align: center;}
+p{text-align: center;}
+html, body{ width: 100%; font-family: "Roboto", serif;margin:0;}
+img.logo{width: 100%;}
+img.photo70{width: 70%; margin: 0% 15%;}
+img.photo90{width: 90%; margin: 0% 5%;}
+table, th, td{border:1px solid black;}
+.container{position: relative; text-align: center; color: white; flex: 30%;padding: 10px; margin-inline: auto; overflow: hidden;}
+.containerGallery{position: relative; text-align: center; color: white; flex: 30%;padding: 10px; margin-inline: auto; overflow: hidden;}
+.container:hover img {opacity: 0.3; transition: .5s ease;}
+.cover{object-fit: contain; width: 100%;box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);}
+.cover20{object-fit: contain; width: 20%;box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);}
+.cover70{object-fit: contain; width: 70%;box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);}
+.centered {position: absolute; top: 15%; left: 50%; transform: translate(-50%, -50%);}
+.centeredtext{margin: 2em auto 2em auto; width:70%;}
+.centeredlist{text-align: center;}
+.textOverImagePower { text-align: center; background-color: orange; }
+.textOverImageShop { text-align: center; background-color: red; }
+.textOverImageInstructions { text-align: center; background-color: green ; }
+.textOverImageBuyPhoto { text-align: center; background-color: green ; }
+
+a.mylink:link, a.mylink:visited {background-color: green;color: white;padding: 2px 2px;text-align: center;text-decoration: none;display: inline-block;}
+a.mylink:hover, a.mylink:active {background-color: lightgreen;}
+ul.mylist {  display: inline-block; text-align: left;}
+.grid{display:flex;justify-content: center;flex-direction: row;}
+@media (max-width: 1000px) {
+    .grid { flex-direction: column;} .container{ flex: 90%;}
+    h2{font-size: 1.2em;}
+    h1{font-size: 1.2em;}
+}
+@media (min-width: 1000px) {
+    h2{font-size: 1.0em;}
+    h1{font-size: 1.8em;}
+}
+@media (min-width: 1450px) {
+    h2{font-size: 1.8em;}
+    h1{font-size: 1.8em;}
+}
